@@ -39,7 +39,7 @@
   --color-text-link: rgba(0,0,255,0.8);
   --color-text-link-hover: rgba(0,0,255,0.4);
   /* Font settings */
-  --font-family: 'Your Font Name', 'Helvetica', 'Arial', sans-serif;
+  --font-family: 'Your Font Name', 'TimesNewRoman', 'Arial', sans-serif;
   --font-size: 24px;
   /* Margins settings */
   --margin: 1rem;
