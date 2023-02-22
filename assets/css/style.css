@@ -180,6 +180,10 @@ summary{
 }
 
 
+
+
+
+
 /* MEDIA QUERIES */
 
 /* responsive typeface */
@@ -226,6 +230,11 @@ summary{
 
   /* styles for screen sizes 779px, should covers 'mobile' and 'tablet' */
   /* style this one first and then use the two others to 'override' some styles (exceptions/details) */
+
+
+
+
+
 
   /* utilities */
 
