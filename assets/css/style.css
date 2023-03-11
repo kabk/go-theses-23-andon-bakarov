@@ -337,33 +337,42 @@ summary{
   .desktop{display:none!important;}
   .mobile{display:block;}
 
-}
+  .body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
 
 
 
 @media (max-width: 339px) {
 
   /* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
-
-}
+  .body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
 
 
 
 @media (max-width: 779px) and (orientation: landscape) {
 
   /* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
-
-}
+  .body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
 
 
 
 @media (min-width: 780px) and (max-width: 992px) {
 
   /* use this query to apply style for 'small' desktop screens */
+  .body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
 
 }
 
-@media {
-  overflow-y:hidden;
-}
+
 
