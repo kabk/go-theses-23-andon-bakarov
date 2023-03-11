@@ -46,7 +46,7 @@
   --color-text-link: rgba(0,0,255,0.8);
   --color-text-link-hover: rgba(0,0,255,0.4);
   /* Font settings */
-  --font-family: 'Times New Roman', Times, serif;  --font-size: 24px;
+  --font-family: 'Times New Roman', Times, serif;  --font-size: 18px;
   /* Margins settings */
   --margin: 0.5rem;
 }
@@ -56,19 +56,45 @@
 /* GENERAL STYLES */
 
 html {
-  color: var(--color-text);
-  background-color: var(--color-background);
+  /* color: var(--color-text);
+  background-color: var(--color-background); */
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
-  position:relative;
-  background-color: var(--color-background);
+  /* position:relative; */
+  /* background-color: var(--color-background); */
   font-family: 'Times New Roman', Times, serif;
-  color: var(--color-text);
-  width:100%;
-  height:auto;
-  overflow-y:auto;
+  /* color: var(--color-text); */
+  width: auto;
+  height:100%;
+  overflow-y:hidden;
+  padding: 0;
+  margin: 0;
+
 }
+
+div.page-wrapper {
+  
+  padding: var(--margin);
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 100%;
+  /* justify-content: space-between; */
+}
+
+/* div.left-wrapper{
+  width: 18%;
+  height: 100%;
+  position: relative;
+  padding-left: 1%;
+  display: flex;
+  flex-direction: column;
+} */
 
 a {
   color: var(--color-text-link);
@@ -85,9 +111,42 @@ a:focus-visible {
   text-decoration: none;
 }
 
+h1{
+  /* position: relative; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  */
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  /* z-index: 10; */
+  opacity: 0.3;
+  /* mix-blend-mode: difference; */
+}
+
 .header{
+  margin-top: 0;
+  margin-bottom: 0;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  bottom: 0;
+}
+
+.chapters{
+  text-transform: uppercase;
+  font-weight: normal;
   text-align: center;
   margin-top: 0;
+  position: relative;
+  /* transform: translateY(-30%); */
+  margin:0;
+
 }
 
 h2{
@@ -101,10 +160,25 @@ h3{
 h4, h5, h6{
   /* h4-h5-h6 style */
 }
-
+/* .protate{
+  transform: rotate(-90deg); 
+} */
 p{
-  /* paragraph style */
+  writing-mode: vertical-rl;
+  transform: rotate(182deg);
+  height:90%;
+  margin-left:0;
+  margin-top:0;
+  font-size: clamp( 10px, 6vw, 20px );
+}
 
+.pfigure{
+  writing-mode:horizontal-tb;
+  transform: rotate(0deg);
+}
+
+figure{
+  width: 100%;
 }
 
 ol, ul{
@@ -125,10 +199,6 @@ hr{
 
 /* page structure */
 
-div.page-wrapper {
-  /* the element that 'wraps' everything */
-  padding: var(--margin);
-}
 
 /* navigation */
  
