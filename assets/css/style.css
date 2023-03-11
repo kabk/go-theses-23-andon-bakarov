@@ -341,6 +341,7 @@ summary{
     overflow-y:hidden;
     overflow-x:hidden;
   }
+}
 
 
 
@@ -351,7 +352,7 @@ summary{
     overflow-y:hidden;
     overflow-x:hidden;
   }
-
+}
 
 
 @media (max-width: 779px) and (orientation: landscape) {
@@ -362,7 +363,7 @@ summary{
     overflow-x:hidden;
   }
 
-
+}
 
 @media (min-width: 780px) and (max-width: 992px) {
 
@@ -373,6 +374,3 @@ summary{
   }
 
 }
-
-
-
