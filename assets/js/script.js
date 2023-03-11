@@ -1,10 +1,6 @@
+const scrollContainer = document.querySelector("main");
 
-
-    const scrollContainer = document.querySelector("page-wrapper");
-
-    scrollContainer.addEventListener("wheel", (evt) => {
-        evt.preventDefault();
-        scrollContainer.scrollLeft += evt.deltaY;
-    });
-    
-
+scrollContainer.addEventListener("wheel", (evt) => {
+    evt.preventDefault();
+    scrollContainer.scrollLeft += evt.deltaY;
+});
