@@ -162,6 +162,7 @@ h1{
   margin-right: auto;
   width: 100%;
   bottom: 0;
+  /* text-decoration: underline; */
   /* font-family: 'Arial', sans-serif; 
   font-weight:normal; */
 
@@ -244,7 +245,7 @@ nav{
 .menu{
   background-color:#b1b1b1;
   padding: 0;
-  position:absolute;
+  position:relative;
   z-index: 3;
 
 }
@@ -265,6 +266,17 @@ li {
   
 }
 
+dfn {
+  font-style: italic;
+}
+
+.reference {
+  color:#b1b1b1;
+}
+
+.bold {
+  font-style: bold;
+}
 
 /* content */
 
