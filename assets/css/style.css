@@ -169,6 +169,11 @@ h1{
 
 }
 
+#transition{
+  margin-right: 100px;
+  margin-left: 10px;
+}
+
 h2{
   /* h2 style */
 }
@@ -189,22 +194,47 @@ p{
   height:90%;
   margin-left:0;
   margin-top:0;
-  font-size: clamp( 10px, 6vw, 20px );
+  font-size: clamp( 0.7em, 0.9em, 0.9em );
+  font-family: 'Helvetica', sans-serif; 
+  font-weight:bold;
+
 }
 
 .first{
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
 }
 
 .pfigure{
   writing-mode:horizontal-tb;
   transform: rotate(0deg);
-  
+  opacity: 0.3;
+  font-size: clamp(0.6em, 0.2em, 0.2em);   
+  font-family: 'Helvetica', sans-serif; 
+  font-weight: normal;
 }
 
 figure{
   width: 100%;
 }
+
+.chapterstart{
+  display: inline-block;
+  position: relative;
+  /* width: 500px; */
+/* background-color: red; */
+}
+
+.footnotes{
+  position: relative;
+  bottom:0px;
+  writing-mode:horizontal-tb;
+  transform: rotate(0deg);
+  opacity: 0.3;
+  font-size: clamp(0.6em, 0.2em, 0.2em);
+  
+
+}
+
 
 ol, ul{
   /* ordered list and unordered list styles */
