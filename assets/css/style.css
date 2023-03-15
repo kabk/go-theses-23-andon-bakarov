@@ -71,7 +71,7 @@ body {
   /* color: var(--color-text); */
   width: auto;
   height:100%;
-  overflow-y:hidden;
+  /* overflow-y:hidden; */
   padding: 0;
   margin: 0;
 
