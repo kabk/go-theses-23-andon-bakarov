@@ -220,19 +220,12 @@ figure{
 .chapterstart{
   display: inline-block;
   position: relative;
-
-  /* width: 500px; */
-/* background-color: red; */
+  width: 60vw;
 }
 
 .footnotes{
-  position: relative;
-  bottom:0px;
-  writing-mode:horizontal-tb;
-  transform: rotate(0deg);
-  opacity: 0.3;
-  font-size: clamp(0.6em, 0.2em, 0.2em);
-  
+position: relative;
+bottom: 0;
 
 }
 
