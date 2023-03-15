@@ -74,7 +74,11 @@ body {
   /* overflow-y:hidden; */
   padding: 0;
   margin: 0;
+}
 
+main{
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 div.page-wrapper {
@@ -84,8 +88,11 @@ div.page-wrapper {
   flex-direction: row;
   width: auto;
   height: 100%;
+  padding: 10px;
   /* justify-content: space-between; */
 }
+
+
 
 figure {
   display: block;
@@ -142,7 +149,7 @@ h1{
 }
 
 .header{
-  opacity: 0.3;
+  color:#b1b1b1;
   /* text-transform: uppercase; */
   font-weight: normal;
   text-align: center;
@@ -154,6 +161,9 @@ h1{
   margin-right: auto;
   width: 100%;
   bottom: 0;
+  /* font-family: 'Arial', sans-serif; 
+  font-weight:normal; */
+
 }
 
 .chapters{
@@ -165,7 +175,9 @@ h1{
   position: relative;
   /* transform: translateY(-30%); */
   margin:0;
-  opacity: 0.3;
+  color:#b1b1b1;
+  position: relative;
+  bottom: 0;
 
 }
 
@@ -174,43 +186,29 @@ h1{
   margin-left: 10px;
 }
 
-h2{
-  /* h2 style */
-}
-
-h3{
-  /* h3 style */
-}
-
-h4, h5, h6{
-  /* h4-h5-h6 style */
-}
-/* .protate{
-  transform: rotate(-90deg); 
-} */
 p{
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   height:90%;
   margin-left:0;
   margin-top:0;
-  font-size: clamp( 0.7em, 0.9em, 0.9em );
-  font-family: 'Arial', sans-serif; 
-  font-weight:bold;
+  font-size: clamp( 0.7em, 0.8em, 0.9em );
+  /* font-family: 'Arial', sans-serif; 
+  font-weight:bold; */
 
 }
 
-.first{
-  /* transform: rotate(180deg); */
+.highlight{
+  font-weight:bold;
 }
 
 .pfigure{
   writing-mode:horizontal-tb;
   transform: rotate(0deg);
-  opacity: 0.3;
+  color:#b1b1b1;
   font-size: clamp(0.6em, 0.2em, 0.2em);   
-  font-family: 'Helvetica', sans-serif; 
-  font-weight: normal;
+  /* font-family: 'Helvetica', sans-serif; 
+  font-weight: normal; */
 }
 
 figure{
@@ -220,6 +218,7 @@ figure{
 .chapterstart{
   display: inline-block;
   position: relative;
+
   /* width: 500px; */
 /* background-color: red; */
 }
@@ -235,38 +234,40 @@ figure{
 
 }
 
-
-ol, ul{
-  /* ordered list and unordered list styles */
-}
-
-blockquote{
-  /* blockquote element style */
-}
-
-hr{
-  /* horizontal rule style */
-}
-
-
-
-/* PAGE STYLES */
-
-/* page structure */
-
-
-/* navigation */
- 
 nav{
   text-align: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
+
+.menu{
+  background-color:#b1b1b1;
+  padding: 0;
+  position:absolute;
+  z-index: 3;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+li {
+  display: inline;
+  float: left;
+  
+  
+}
+
 
 /* content */
 
-main{
-  /* overflow-x: hidden; */
-  /* overflow-y: hidden; */
-}
+
 
 summary{
   
