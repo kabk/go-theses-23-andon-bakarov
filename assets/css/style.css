@@ -190,12 +190,12 @@ h4, h5, h6{
 } */
 p{
   writing-mode: vertical-rl;
-  transform: rotate(182deg);
+  transform: rotate(180deg);
   height:90%;
   margin-left:0;
   margin-top:0;
   font-size: clamp( 0.7em, 0.9em, 0.9em );
-  font-family: 'Helvetica', sans-serif; 
+  font-family: 'Arial', sans-serif; 
   font-weight:bold;
 
 }
