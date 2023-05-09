@@ -375,10 +375,10 @@ summary{
   .desktop{display:none!important;}
   .mobile{display:block;}
 
-  /* .body{
+  .body{
     overflow-y:hidden;
     overflow-x:hidden;
-  } */
+  }
 
 }
 
