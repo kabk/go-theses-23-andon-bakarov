@@ -89,6 +89,12 @@ body {
   width: 100%;
   }
 
+  .emtycover{
+  display: block;
+  position: absolute;
+  z-index: 1001;
+  }
+
 main{
   overflow-x: hidden;
   overflow-y: hidden;
@@ -178,8 +184,6 @@ h1{
   /* font-family: 'Arial', sans-serif; 
   font-weight:normal; */
   z-index: 1001;
-
-
 
 }
 
