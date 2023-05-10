@@ -77,6 +77,15 @@ body {
   background-color: #cccccc;
 }
 
+.empty{
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #b1b1b1;
+  z-index: 1000;
+}
+
 main{
   overflow-x: hidden;
   overflow-y: hidden;
