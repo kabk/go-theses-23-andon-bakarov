@@ -86,9 +86,29 @@ body {
   z-index: 1000;
 }
 
-main{
-  overflow-x: hidden;
-  overflow-y: hidden;
+
+a:link {
+  color:#b1b1b1;
+}
+
+/* visited link */
+
+a:visited {
+  color:#b1b1b1;
+}
+
+a:visited:hover {
+  color:#b1b1b1;
+}
+
+/* mouse over link */
+a:hover {
+  color:#b1b1b1;
+}
+
+/* selected link */
+a:active {
+  color:#b1b1b1;
 }
 
 div.page-wrapper {
@@ -172,6 +192,9 @@ h1{
   width: 100%;
   bottom: 0;
   z-index: 1001;
+  font-family: 'Helvetica', sans-serif;
+
+
   /* text-decoration: underline; */
   /* font-family: 'Arial', sans-serif;
   font-weight:normal; */
