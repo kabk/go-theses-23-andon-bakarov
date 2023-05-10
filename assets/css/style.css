@@ -385,10 +385,12 @@ summary{
   .desktop{display:none!important;}
   .mobile{display:block;}
 
-  .body{
-    position: relative;
-    overflow-y:hidden;
-    overflow-x:hidden;
+  html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  body {
+    position: relative
   }
 
 }
@@ -405,10 +407,12 @@ summary{
   }
    */
 
-   .body{
-    position: relative;
-    overflow-y:hidden;
-    overflow-x:hidden;
+   html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  body {
+    position: relative
   }
 
 }
@@ -423,10 +427,12 @@ summary{
     overflow-x:hidden;
   } */
 
-  .body{
-    position: relative;
-    overflow-y:hidden;
-    overflow-x:hidden;
+  html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  body {
+    position: relative
   }
 
 }
@@ -440,10 +446,12 @@ summary{
     overflow-x:hidden;
   } */
 
-  .body{
-    position: relative;
-    overflow-y:hidden;
-    overflow-x:hidden;
+  html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  body {
+    position: relative
   }
 
 }
