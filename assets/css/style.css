@@ -385,6 +385,7 @@ summary{
   .mobile{display:block;}
 
   .body{
+    position: relative;
     overflow-y:hidden;
     overflow-x:hidden;
   }
@@ -404,6 +405,7 @@ summary{
    */
 
    .body{
+    position: relative;
     overflow-y:hidden;
     overflow-x:hidden;
   }
@@ -421,6 +423,7 @@ summary{
   } */
 
   .body{
+    position: relative;
     overflow-y:hidden;
     overflow-x:hidden;
   }
@@ -437,6 +440,7 @@ summary{
   } */
 
   .body{
+    position: relative;
     overflow-y:hidden;
     overflow-x:hidden;
   }
