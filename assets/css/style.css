@@ -82,7 +82,7 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: #b1b1b1;
+  background-color: #cccccc;
   z-index: 1000;
 }
 
@@ -402,6 +402,12 @@ summary{
     overflow-x:hidden;
   }
    */
+
+   .body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
+
 }
 
 
@@ -414,6 +420,11 @@ summary{
     overflow-x:hidden;
   } */
 
+  .body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
+
 }
 
 @media (min-width: 780px) and (max-width: 992px) {
@@ -424,5 +435,10 @@ summary{
     overflow-y:hidden;
     overflow-x:hidden;
   } */
+
+  .body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
 
 }
