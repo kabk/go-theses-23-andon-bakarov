@@ -171,6 +171,7 @@ h1{
   margin-right: auto;
   width: 100%;
   bottom: 0;
+  z-index: 1001;
   /* text-decoration: underline; */
   /* font-family: 'Arial', sans-serif;
   font-weight:normal; */
